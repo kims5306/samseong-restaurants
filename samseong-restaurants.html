@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>삼성역 맛집 추천 앱</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Apple SD Gothic Neo', 'Noto Sans KR', Arial, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 20px;
+            box-shadow: 0 10px 40px rgba(0,0,0,0.2);
+            padding: 30px;
+        }
+
+        h1 {
+            text-align: center;
+            color: #667eea;
+            margin-bottom: 30px;
+            font-size: 28px;
+        }
+
+        .search-section {
+            display: flex;
+            gap: 15px;
+            margin-bottom: 30px;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .search-box {
+            flex: 1;
+        }
+
+        .search-box input {
+            width: 100%;
+            padding: 12px 20px;
+            border: 2px solid #e0e0e0;
+            border-radius: 10px;
+            font-size: 16px;
+            transition: all 0.3s ease;
+        }
+
+        .search-box input:focus {
+            outline: none;
+            border-color: #667eea;
+            box-shadow: 0 0 10px rgba(102, 126, 234, 0.3);
+        }
+
+        .btn-group {
+            display: flex;
+            gap: 10px;
+        }
+
+        .btn {
+            padding: 12px 25px;
+            border: none;
+            border-radius: 10px;
+            font-size: 16px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            font-weight: 600;
+        }
+
+        .btn-primary {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+        }
+
+        .btn-secondary {
+            background: #f0f0f0;
+            color: #333;
+        }
+
+        .btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+        }
+
+        .btn-primary:hover {
+            background: linear-gradient(135deg, #764ba2 0%, #667eea 100%);
+        }
+
+        .restaurant-list {
+            max-height: 500px;
+            overflow-y: auto;
+            padding-right: 10px;
+        }
+
+        .restaurant-item {
+            background: #f8f9fa;
+            padding: 20px;
+            margin-bottom: 15px;
+            border-radius: 15px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            border-left: 4px solid transparent;
+        }
+
+        .restaurant-item:hover {
+            background: #e9f5ff;
+            transform: translateX(5px);
+            border-left-color: #667eea;
+            box-shadow: 0 5px 15px rgba(102, 126, 234, 0.2);
+        }
+
+        .restaurant-name {
+            font-size: 18px;
+            font-weight: 700;
+            color: #333;
+            margin-bottom: 8px;
+        }
+
+        .restaurant-rating {
+            display: inline-flex;
+            align-items: center;
+            gap: 5px;
+            background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+            color: white;
+            padding: 5px 12px;
+            border-radius: 20px;
+            font-size: 14px;
+            margin-bottom: 8px;
+        }
+
+        .restaurant-desc {
+            font-size: 14px;
+            color: #666;
+            line-height: 1.5;
+        }
+
+        /* 모달 스타일 */
+        .modal-overlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: rgba(0, 0, 0, 0.7);
+            display: none;
+            justify-content: center;
+            align-items: center;
+            z-index: 1000;
+        }
+
+        .modal-overlay.active {
+            display: flex;
+        }
+
+        .modal {
+            background: white;
+            border-radius: 20px;
+            max-width: 500px;
+            width: 90%;
+            max-height: 90vh;
+            overflow-y: auto;
+            padding: 30px;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.4);
+        }
+
+        .modal-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 25px;
+            padding-bottom: 15px;
+            border-bottom: 2px solid #f0f0f0;
+        }
+
+        .modal-title {
+            font-size: 24px;
+            font-weight: 700;
+            color: #333;
+        }
+
+        .close-btn {
+            background: none;
+            border: none;
+            font-size: 28px;
+            cursor: pointer;
+            color: #999;
+            transition: color 0.3s ease;
+        }
+
+        .close-btn:hover {
+            color: #333;
+        }
+
+        .modal-content h3 {
+            font-size: 18px;
+            margin-bottom: 10px;
+            color: #333;
+        }
+
+        .modal-content p {
+            font-size: 16px;
+            color: #555;
+            margin-bottom: 15px;
+            line-height: 1.6;
+        }
+
+        .google-map-btn {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            background: #4285f4;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 8px;
+            text-decoration: none;
+            font-weight: 600;
+            margin-top: 15px;
+            transition: all 0.3s ease;
+        }
+
+        .google-map-btn:hover {
+            background: #357ae8;
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(66, 133, 244, 0.4);
+        }
+
+        .loading {
+            text-align: center;
+            padding: 40px;
+            color: #667eea;
+            font-size: 18px;
+        }
+
+        /* 반응형 */
+        @media (max-width: 768px) {
+            .container {
+                padding: 20px;
+            }
+
+            h1 {
+                font-size: 22px;
+            }
+
+            .btn {
+                padding: 10px 20px;
+                font-size: 14px;
+            }
+
+            .restaurant-item {
+                padding: 15px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🍽️ 삼성역 맛집 추천 앱</h1>
+        
+        <div class="search-section">
+            <div class="search-box">
+                <input type="text" id="searchInput" placeholder="맛집 이름 검색...">
+            </div>
+            <div class="btn-group">
+                <button class="btn btn-primary" onclick="showRandom()">🎲 랜덤 추천</button>
+                <button class="btn btn-secondary" onclick="showTopRated()">⭐ 최고 평점</button>
+                <button class="btn btn-secondary" onclick="clearList()">🔄 초기화</button>
+            </div>
+        </div>
+
+        <div id="restaurantList" class="restaurant-list">
+            <!-- 맛집 목록이 여기에 표시됩니다 -->
+        </div>
+    </div>
+
+    <!-- 모달 -->
+    <div class="modal-overlay" id="modalOverlay">
+        <div class="modal">
+            <div class="modal-header">
+                <h2 class="modal-title" id="modalTitle"></h2>
+                <button class="close-btn" onclick="closeModal()">&times;</button>
+            </div>
+            <div class="modal-content" id="modalContent">
+                <!-- 모달 내용이 여기에 표시됩니다 -->
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // 맛집 데이터 (JSON 파일에서 가져온 데이터)
+        let restaurants = [];
+
+        // JSON 파일 로드
+        async function loadRestaurants() {
+            try {
+                const response = await fetch('삼성역 근처 맛집 및 정보 지도_export.json');
+                if (!response.ok) throw new Error('JSON 파일을 찾을 수 없습니다.');
+                restaurants = await response.json();
+                displayRestaurants(restaurants);
+            } catch (error) {
+                console.error('데이터 로드 오류:', error);
+                document.getElementById('restaurantList').innerHTML = 
+                    '<div class="loading">⚠️ 맛집 데이터를 불러올 수 없습니다.<br>JSON 파일이 필요합니다.</div>';
+            }
+        }
+
+        // 맛집 목록 표시
+        function displayRestaurants(data) {
+            const container = document.getElementById('restaurantList');
+            
+            if (data.length === 0) {
+                container.innerHTML = '<div class="loading">📍 맛집 데이터가 없습니다.</div>';
+                return;
+            }
+
+            let html = '';
+            data.forEach((rest, index) => {
+                const stars = '★'.repeat(rest.rating_stars);
+                const mapLink = `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(rest.name + ', 서울')}`;
+                
+                html += `
+                    <div class="restaurant-item" onclick="showModal(${index})">
+                        <div class="restaurant-name">${rest.name}</div>
+                        <div class="restaurant-rating">${stars} ${rest.rating_stars > 0 ? rest.rating_stars + '점' : ''}</div>
+                        <div class="restaurant-desc">${rest.description || '정보 없음'}</div>
+                    </div>
+                `;
+            });
+
+            container.innerHTML = html;
+        }
+
+        // 랜덤 추천 표시
+        function showRandom() {
+            if (restaurants.length === 0) return;
+            
+            const randomIndex = Math.floor(Math.random() * restaurants.length);
+            showModal(randomIndex);
+        }
+
+        // 최고 평점 맛집 표시
+        function showTopRated() {
+            if (restaurants.length === 0) return;
+            
+            // 별점이 있는 맛집만 필터링
+            const ratedRestaurants = restaurants.filter(r => r.rating_stars > 0);
+            
+            if (ratedRestaurants.length === 0) {
+                alert('별점 정보가 없는 맛집만 있습니다.');
+                return;
+            }
+
+            // 별점 순으로 정렬
+            ratedRestaurants.sort((a, b) => b.rating_stars - a.rating_stars);
+            
+            const topIndex = 0;
+            showModal(topIndex);
+        }
+
+        // 초기화
+        function clearList() {
+            document.getElementById('restaurantList').innerHTML = '';
+        }
+
+        // 모달 표시
+        function showModal(index) {
+            if (index >= restaurants.length || index < 0) return;
+            
+            const rest = restaurants[index];
+            const stars = '★'.repeat(rest.rating_stars);
+            const mapLink = `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(rest.name + ', 서울')}`;
+            
+            document.getElementById('modalTitle').textContent = rest.name;
+            document.getElementById('modalContent').innerHTML = `
+                <h3>📝 식당 정보</h3>
+                <p><strong>별점:</strong> ${stars} (${rest.rating_stars > 0 ? rest.rating_stars + '점' : '-'})</p>
+                <p><strong>후기:</strong> ${rest.description || '정보 없음'}</p>
+                
+                <a href="${mapLink}" target="_blank" class="google-map-btn">
+                    🗺️ 구글 지도로 이동
+                </a>
+            `;
+            
+            document.getElementById('modalOverlay').classList.add('active');
+        }
+
+        // 모달 닫기
+        function closeModal() {
+            document.getElementById('modalOverlay').classList.remove('active');
+        }
+
+        // ESC 키로 모달 닫기
+        document.addEventListener('keydown', (e) => {
+            if (e.key === 'Escape') {
+                closeModal();
+            }
+        });
+
+        // 페이지 로드 시 데이터 로드
+        window.onload = loadRestaurants;
+    </script>
+</body>
+</html>
