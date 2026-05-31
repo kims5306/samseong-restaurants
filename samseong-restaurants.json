@@ -1,0 +1,22 @@
+[
+  {
+    "id": 1,
+    "name": "",
+    "description": "★★★★ 일식 돈카츠, 마제소바(다들 맛잇다하는데 엄청맛잇다정도 까진 아님)",
+    "latitude": 37.5061858,
+    "longitude": 127.0600424,
+    "altitude": 0,
+    "rating_stars": 5,
+    "review_text": ""
+  },
+  {
+    "id": 2,
+    "name": "교대밀밭 삼성점",
+    "description": "★★★ 돈까스, 소바",
+    "latitude": 37.5070561,
+    "longitude": 127.062887,
+    "altitude": 0,
+    "rating_stars": 4,
+    "review_text": ""
+  }
+]
