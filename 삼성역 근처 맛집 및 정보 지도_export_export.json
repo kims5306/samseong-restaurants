@@ -1,0 +1,1472 @@
+[
+  {
+    "id": 1,
+    "name": "",
+    "description": "★★★★ 일식 돈카츠, 마제소바(다들 맛잇다하는데 엄청맛잇다정도 까진 아님)",
+    "latitude": 37.5061858,
+    "longitude": 127.0600424,
+    "altitude": 0.0,
+    "rating_stars": 5,
+    "review_text": " 일식 돈카츠, 마제소바(다들 맛잇다하는데 엄청맛잇다정도 까진 아님)"
+  },
+  {
+    "id": 2,
+    "name": "",
+    "description": "★★★ 돈까스, 소바",
+    "latitude": 37.5070561,
+    "longitude": 127.062887,
+    "altitude": 0.0,
+    "rating_stars": 4,
+    "review_text": " 돈까스, 소바"
+  },
+  {
+    "id": 3,
+    "name": "",
+    "description": "★★★★ 수제버거",
+    "latitude": 37.5066528,
+    "longitude": 127.0589639,
+    "altitude": 0.0,
+    "rating_stars": 5,
+    "review_text": " 수제버거"
+  },
+  {
+    "id": 4,
+    "name": "",
+    "description": "★★★ 파스타",
+    "latitude": 37.5061978,
+    "longitude": 127.0580625,
+    "altitude": 0.0,
+    "rating_stars": 4,
+    "review_text": " 파스타"
+  },
+  {
+    "id": 5,
+    "name": "",
+    "description": "★★ 중식",
+    "latitude": 37.5065158,
+    "longitude": 127.0589911,
+    "altitude": 0.0,
+    "rating_stars": 3,
+    "review_text": " 중식"
+  },
+  {
+    "id": 6,
+    "name": "",
+    "description": "★★★ 중식, 갑오징어 올려주는 짬뽕",
+    "latitude": 37.5072584,
+    "longitude": 127.0613541,
+    "altitude": 0.0,
+    "rating_stars": 4,
+    "review_text": " 중식, 갑오징어 올려주는 짬뽕"
+  },
+  {
+    "id": 7,
+    "name": "",
+    "description": "★★ 돼지갈비찜, 점심냉면",
+    "latitude": 37.5059802,
+    "longitude": 127.0585708,
+    "altitude": 0.0,
+    "rating_stars": 3,
+    "review_text": " 돼지갈비찜, 점심냉면"
+  },
+  {
+    "id": 8,
+    "name": "",
+    "description": "★ 깡장 청국장, 강된장",
+    "latitude": 37.5060413,
+    "longitude": 127.059692,
+    "altitude": 0.0,
+    "rating_stars": 2,
+    "review_text": " 깡장 청국장, 강된장"
+  },
+  {
+    "id": 9,
+    "name": "",
+    "description": "★★ 돌솥비빔밥 외",
+    "latitude": 37.5063988,
+    "longitude": 127.0590983,
+    "altitude": 0.0,
+    "rating_stars": 3,
+    "review_text": " 돌솥비빔밥 외"
+  },
+  {
+    "id": 10,
+    "name": "",
+    "description": "★★ 순대국 등",
+    "latitude": 37.5060413,
+    "longitude": 127.059692,
+    "altitude": 0.0,
+    "rating_stars": 3,
+    "review_text": " 순대국 등"
+  },
+  {
+    "id": 11,
+    "name": "",
+    "description": "★★ 복칼국수",
+    "latitude": 37.5063516,
+    "longitude": 127.0588374,
+    "altitude": 0.0,
+    "rating_stars": 3,
+    "review_text": " 복칼국수"
+  },
+  {
+    "id": 12,
+    "name": "",
+    "description": "★★ 점심 쌈밥, 이사갔음 구 한국수 위치",
+    "latitude": 37.5060023,
+    "longitude": 127.0601042,
+    "altitude": 0.0,
+    "rating_stars": 3,
+    "review_text": " 점심 쌈밥, 이사갔음 구 한국수 위치"
+  },
+  {
+    "id": 13,
+    "name": "",
+    "description": "★★ 뼈해장국",
+    "latitude": 37.5071236,
+    "longitude": 127.0614101,
+    "altitude": 0.0,
+    "rating_stars": 3,
+    "review_text": " 뼈해장국"
+  },
+  {
+    "id": 14,
+    "name": "",
+    "description": "★★ 떡볶이",
+    "latitude": 37.5093603,
+    "longitude": 127.0591076,
+    "altitude": 0.0,
+    "rating_stars": 3,
+    "review_text": " 떡볶이"
+  },
+  {
+    "id": 15,
+    "name": "",
+    "description": "★ 쌀국수, 볶음밥",
+    "latitude": 37.498989,
+    "longitude": 127.0623521,
+    "altitude": 0.0,
+    "rating_stars": 2,
+    "review_text": " 쌀국수, 볶음밥"
+  },
+  {
+    "id": 16,
+    "name": "",
+    "description": "★ 햄버거",
+    "latitude": 37.5082947,
+    "longitude": 127.0587727,
+    "altitude": 0.0,
+    "rating_stars": 2,
+    "review_text": " 햄버거"
+  },
+  {
+    "id": 17,
+    "name": "",
+    "description": "★ 덮밥",
+    "latitude": 37.5090197,
+    "longitude": 127.0604088,
+    "altitude": 0.0,
+    "rating_stars": 2,
+    "review_text": " 덮밥"
+  },
+  {
+    "id": 18,
+    "name": "",
+    "description": "★★ 라멘",
+    "latitude": 37.5057218,
+    "longitude": 127.0586286,
+    "altitude": 0.0,
+    "rating_stars": 3,
+    "review_text": " 라멘"
+  },
+  {
+    "id": 19,
+    "name": "",
+    "description": "★★★★ 김치우동정식, 돈까스",
+    "latitude": 37.5079779,
+    "longitude": 127.0576833,
+    "altitude": 0.0,
+    "rating_stars": 5,
+    "review_text": " 김치우동정식, 돈까스"
+  },
+  {
+    "id": 20,
+    "name": "",
+    "description": "★★ 중식 점심세트 구성 좋음",
+    "latitude": 37.5081948,
+    "longitude": 127.0582195,
+    "altitude": 0.0,
+    "rating_stars": 3,
+    "review_text": " 중식 점심세트 구성 좋음"
+  },
+  {
+    "id": 21,
+    "name": "",
+    "description": "★★ 해장국",
+    "latitude": 37.5056233,
+    "longitude": 127.0588863,
+    "altitude": 0.0,
+    "rating_stars": 3,
+    "review_text": " 해장국"
+  },
+  {
+    "id": 22,
+    "name": "",
+    "description": "★★ 반계탕 삼계탕",
+    "latitude": 37.5053111,
+    "longitude": 127.0592689,
+    "altitude": 0.0,
+    "rating_stars": 3,
+    "review_text": " 반계탕 삼계탕"
+  },
+  {
+    "id": 23,
+    "name": "",
+    "description": "★★ 부대찌개",
+    "latitude": 37.5056847,
+    "longitude": 127.0590647,
+    "altitude": 0.0,
+    "rating_stars": 3,
+    "review_text": " 부대찌개"
+  },
+  {
+    "id": 24,
+    "name": "",
+    "description": "★★ 국수류",
+    "latitude": 37.5055326,
+    "longitude": 127.0581591,
+    "altitude": 0.0,
+    "rating_stars": 3,
+    "review_text": " 국수류"
+  },
+  {
+    "id": 25,
+    "name": "",
+    "description": "★ 쌀국수 등",
+    "latitude": 37.50579,
+    "longitude": 127.0561533,
+    "altitude": 0.0,
+    "rating_stars": 2,
+    "review_text": " 쌀국수 등"
+  },
+  {
+    "id": 26,
+    "name": "",
+    "description": "★★★ 쌀국수 등",
+    "latitude": 37.5084142,
+    "longitude": 127.056561,
+    "altitude": 0.0,
+    "rating_stars": 4,
+    "review_text": " 쌀국수 등"
+  },
+  {
+    "id": 27,
+    "name": "",
+    "description": "★★★ 쌀국수 등",
+    "latitude": 37.505377,
+    "longitude": 127.0577413,
+    "altitude": 0.0,
+    "rating_stars": 4,
+    "review_text": " 쌀국수 등"
+  },
+  {
+    "id": 28,
+    "name": "",
+    "description": "★★ 떡볶이",
+    "latitude": 37.5057406,
+    "longitude": 127.056107,
+    "altitude": 0.0,
+    "rating_stars": 3,
+    "review_text": " 떡볶이"
+  },
+  {
+    "id": 29,
+    "name": "",
+    "description": "★★ 햄버거",
+    "latitude": 37.5116263,
+    "longitude": 127.0603689,
+    "altitude": 0.0,
+    "rating_stars": 3,
+    "review_text": " 햄버거"
+  },
+  {
+    "id": 30,
+    "name": "",
+    "description": "★★★ 파스타 외",
+    "latitude": 37.5057406,
+    "longitude": 127.056107,
+    "altitude": 0.0,
+    "rating_stars": 4,
+    "review_text": " 파스타 외"
+  },
+  {
+    "id": 31,
+    "name": "",
+    "description": "★★★★ 햄버거",
+    "latitude": 37.5090513,
+    "longitude": 127.0652864,
+    "altitude": 0.0,
+    "rating_stars": 5,
+    "review_text": " 햄버거"
+  },
+  {
+    "id": 32,
+    "name": "",
+    "description": "★★★ 알밥 김치나베",
+    "latitude": 37.505319,
+    "longitude": 127.0584773,
+    "altitude": 0.0,
+    "rating_stars": 4,
+    "review_text": " 알밥 김치나베"
+  },
+  {
+    "id": 33,
+    "name": "",
+    "description": "★★ 중식",
+    "latitude": 37.5087263,
+    "longitude": 127.0563312,
+    "altitude": 0.0,
+    "rating_stars": 3,
+    "review_text": " 중식"
+  },
+  {
+    "id": 34,
+    "name": "",
+    "description": "★★★ 김치찌개",
+    "latitude": 37.5052271,
+    "longitude": 127.0593517,
+    "altitude": 0.0,
+    "rating_stars": 4,
+    "review_text": " 김치찌개"
+  },
+  {
+    "id": 35,
+    "name": "",
+    "description": "★★★★ 돈까스",
+    "latitude": 37.5082434,
+    "longitude": 127.0662834,
+    "altitude": 0.0,
+    "rating_stars": 5,
+    "review_text": " 돈까스"
+  },
+  {
+    "id": 36,
+    "name": "",
+    "description": "★★★★ 해장국, 내장탕",
+    "latitude": 37.5082024,
+    "longitude": 127.0655064,
+    "altitude": 0.0,
+    "rating_stars": 5,
+    "review_text": " 해장국, 내장탕"
+  },
+  {
+    "id": 37,
+    "name": "",
+    "description": "★★★ 점심 정식 비빔밥 등",
+    "latitude": 37.5080556,
+    "longitude": 127.065,
+    "altitude": 0.0,
+    "rating_stars": 4,
+    "review_text": " 점심 정식 비빔밥 등"
+  },
+  {
+    "id": 38,
+    "name": "",
+    "description": "★★★ 햄버거",
+    "latitude": 37.5086085,
+    "longitude": 127.066559,
+    "altitude": 0.0,
+    "rating_stars": 4,
+    "review_text": " 햄버거"
+  },
+  {
+    "id": 39,
+    "name": "",
+    "description": "★★★ 점심 쭈꾸미, 전 등",
+    "latitude": 37.5073963,
+    "longitude": 127.0616563,
+    "altitude": 0.0,
+    "rating_stars": 4,
+    "review_text": " 점심 쭈꾸미, 전 등"
+  },
+  {
+    "id": 40,
+    "name": "",
+    "description": "★★★ 쌀국수",
+    "latitude": 37.5071516,
+    "longitude": 127.0617536,
+    "altitude": 0.0,
+    "rating_stars": 4,
+    "review_text": " 쌀국수"
+  },
+  {
+    "id": 41,
+    "name": "",
+    "description": "★★ 김밥천국",
+    "latitude": 37.5074681,
+    "longitude": 127.0604588,
+    "altitude": 0.0,
+    "rating_stars": 3,
+    "review_text": " 김밥천국"
+  },
+  {
+    "id": 42,
+    "name": "",
+    "description": "★★★ 중식",
+    "latitude": 37.5069867,
+    "longitude": 127.0625426,
+    "altitude": 0.0,
+    "rating_stars": 4,
+    "review_text": " 중식"
+  },
+  {
+    "id": 43,
+    "name": "",
+    "description": "★★ 회덮밥 알밥",
+    "latitude": 37.5059141,
+    "longitude": 127.0602336,
+    "altitude": 0.0,
+    "rating_stars": 3,
+    "review_text": " 회덮밥 알밥"
+  },
+  {
+    "id": 44,
+    "name": "",
+    "description": "★ 돈까스",
+    "latitude": 37.5053256,
+    "longitude": 127.0589692,
+    "altitude": 0.0,
+    "rating_stars": 2,
+    "review_text": " 돈까스"
+  },
+  {
+    "id": 45,
+    "name": "",
+    "description": "★ 소고기국밥",
+    "latitude": 37.5055601,
+    "longitude": 127.0591702,
+    "altitude": 0.0,
+    "rating_stars": 2,
+    "review_text": " 소고기국밥"
+  },
+  {
+    "id": 46,
+    "name": "",
+    "description": "★★★ 점심 카레 등",
+    "latitude": 37.5058157,
+    "longitude": 127.0594166,
+    "altitude": 0.0,
+    "rating_stars": 4,
+    "review_text": " 점심 카레 등"
+  },
+  {
+    "id": 47,
+    "name": "",
+    "description": "★★ 칼국수",
+    "latitude": 37.5057283,
+    "longitude": 127.0587814,
+    "altitude": 0.0,
+    "rating_stars": 3,
+    "review_text": " 칼국수"
+  },
+  {
+    "id": 48,
+    "name": "",
+    "description": "★★★ 칼국수, 삼성역에서 식당 중 제일싼듯",
+    "latitude": 37.5072868,
+    "longitude": 127.0592153,
+    "altitude": 0.0,
+    "rating_stars": 4,
+    "review_text": " 칼국수, 삼성역에서 식당 중 제일싼듯"
+  },
+  {
+    "id": 49,
+    "name": "",
+    "description": "★★★★ 돈카츠",
+    "latitude": 37.5085312,
+    "longitude": 127.0580143,
+    "altitude": 0.0,
+    "rating_stars": 5,
+    "review_text": " 돈카츠"
+  },
+  {
+    "id": 50,
+    "name": "",
+    "description": "★★★ 갈비탕",
+    "latitude": 37.5083432,
+    "longitude": 127.0585185,
+    "altitude": 0.0,
+    "rating_stars": 4,
+    "review_text": " 갈비탕"
+  },
+  {
+    "id": 51,
+    "name": "",
+    "description": "★★ 중식",
+    "latitude": 37.5087186,
+    "longitude": 127.0575117,
+    "altitude": 0.0,
+    "rating_stars": 3,
+    "review_text": " 중식"
+  },
+  {
+    "id": 52,
+    "name": "",
+    "description": "★★★ 부대찌개 짜글이",
+    "latitude": 37.5091333,
+    "longitude": 127.0583144,
+    "altitude": 0.0,
+    "rating_stars": 4,
+    "review_text": " 부대찌개 짜글이"
+  },
+  {
+    "id": 53,
+    "name": "",
+    "description": "★★★★★ 챠슈바오번 개맛잇음, 딤섬, 중식",
+    "latitude": 37.5114106,
+    "longitude": 127.0568534,
+    "altitude": 0.0,
+    "rating_stars": 5,
+    "review_text": "★ 챠슈바오번 개맛잇음, 딤섬, 중식"
+  },
+  {
+    "id": 54,
+    "name": "",
+    "description": "★ 김밥천국",
+    "latitude": 37.5082543,
+    "longitude": 127.0650176,
+    "altitude": 0.0,
+    "rating_stars": 2,
+    "review_text": " 김밥천국"
+  },
+  {
+    "id": 55,
+    "name": "",
+    "description": "★★★ 청국장 근데 비쌈",
+    "latitude": 37.5075057,
+    "longitude": 127.0644969,
+    "altitude": 0.0,
+    "rating_stars": 4,
+    "review_text": " 청국장 근데 비쌈"
+  },
+  {
+    "id": 56,
+    "name": "",
+    "description": "★★★ 쌀국수 볶음밥",
+    "latitude": 37.5075362,
+    "longitude": 127.0670393,
+    "altitude": 0.0,
+    "rating_stars": 4,
+    "review_text": " 쌀국수 볶음밥"
+  },
+  {
+    "id": 57,
+    "name": "",
+    "description": "★★★ 점심 곰탕, 저녁 파삼겹",
+    "latitude": 37.5079141,
+    "longitude": 127.0654133,
+    "altitude": 0.0,
+    "rating_stars": 4,
+    "review_text": " 점심 곰탕, 저녁 파삼겹"
+  },
+  {
+    "id": 58,
+    "name": "",
+    "description": "★★★ 돈가스, 라멘, 도시락",
+    "latitude": 37.5077721,
+    "longitude": 127.0648902,
+    "altitude": 0.0,
+    "rating_stars": 4,
+    "review_text": " 돈가스, 라멘, 도시락"
+  },
+  {
+    "id": 59,
+    "name": "",
+    "description": "★★ 카레, 돈까스, 맛잇을땐 4개별인데 맛없을땐 1개도 아까움 복불복",
+    "latitude": 37.5078919,
+    "longitude": 127.0659124,
+    "altitude": 0.0,
+    "rating_stars": 3,
+    "review_text": " 카레, 돈까스, 맛잇을땐 4개별인데 맛없을땐 1개도 아까움 복불복"
+  },
+  {
+    "id": 60,
+    "name": "",
+    "description": "★★★ 밀면 고기불백",
+    "latitude": 37.5104812,
+    "longitude": 127.0651822,
+    "altitude": 0.0,
+    "rating_stars": 4,
+    "review_text": " 밀면 고기불백"
+  },
+  {
+    "id": 61,
+    "name": "",
+    "description": "★★★ 불고기커리",
+    "latitude": 37.5053908,
+    "longitude": 127.0587773,
+    "altitude": 0.0,
+    "rating_stars": 4,
+    "review_text": " 불고기커리"
+  },
+  {
+    "id": 62,
+    "name": "",
+    "description": "★★★★★ 인도커리 여기 씨 치킨커리 개맛잇음 화,목 버터치킨",
+    "latitude": 37.5098562,
+    "longitude": 127.0566151,
+    "altitude": 0.0,
+    "rating_stars": 5,
+    "review_text": "★ 인도커리 여기 씨 치킨커리 개맛잇음 화,목 버터치킨"
+  },
+  {
+    "id": 63,
+    "name": "",
+    "description": "★★★★ 여기 치킨커리 개쩜",
+    "latitude": 37.511629,
+    "longitude": 127.0655128,
+    "altitude": 0.0,
+    "rating_stars": 5,
+    "review_text": " 여기 치킨커리 개쩜"
+  },
+  {
+    "id": 64,
+    "name": "",
+    "description": "★★★ 순두부 불고기 뚝배기",
+    "latitude": 37.5104022,
+    "longitude": 127.0649002,
+    "altitude": 0.0,
+    "rating_stars": 4,
+    "review_text": " 순두부 불고기 뚝배기"
+  },
+  {
+    "id": 65,
+    "name": "",
+    "description": "★★★★★ 곰탕 수하동보다 난거 같음",
+    "latitude": 37.5111468,
+    "longitude": 127.0596712,
+    "altitude": 0.0,
+    "rating_stars": 5,
+    "review_text": "★ 곰탕 수하동보다 난거 같음"
+  },
+  {
+    "id": 66,
+    "name": "",
+    "description": "★★★★ 라면, 알밥, 된장찌개 ",
+    "latitude": 37.5144293,
+    "longitude": 127.0643594,
+    "altitude": 0.0,
+    "rating_stars": 5,
+    "review_text": " 라면, 알밥, 된장찌개 "
+  },
+  {
+    "id": 67,
+    "name": "",
+    "description": "★★★ 팟타이, 볶음면류",
+    "latitude": 37.5083233,
+    "longitude": 127.0581855,
+    "altitude": 0.0,
+    "rating_stars": 4,
+    "review_text": " 팟타이, 볶음면류"
+  },
+  {
+    "id": 68,
+    "name": "",
+    "description": "★★ 매움",
+    "latitude": 37.5083867,
+    "longitude": 127.0581605,
+    "altitude": 0.0,
+    "rating_stars": 3,
+    "review_text": " 매움"
+  },
+  {
+    "id": 69,
+    "name": "",
+    "description": "★★★ 튀김 맛잇음, 떡볶이, 근데 푸드트럭임",
+    "latitude": 37.508075,
+    "longitude": 127.0577672,
+    "altitude": 0.0,
+    "rating_stars": 4,
+    "review_text": " 튀김 맛잇음, 떡볶이, 근데 푸드트럭임"
+  },
+  {
+    "id": 70,
+    "name": "",
+    "description": "★★★★ 사골칼국수,  아이스크림 무한리필",
+    "latitude": 37.5082112,
+    "longitude": 127.0571281,
+    "altitude": 0.0,
+    "rating_stars": 5,
+    "review_text": " 사골칼국수,  아이스크림 무한리필"
+  },
+  {
+    "id": 71,
+    "name": "",
+    "description": "★★ 규동",
+    "latitude": 37.5083637,
+    "longitude": 127.057135,
+    "altitude": 0.0,
+    "rating_stars": 3,
+    "review_text": " 규동"
+  },
+  {
+    "id": 72,
+    "name": "",
+    "description": "★★★ 육칼, 이화수보다 난듯",
+    "latitude": 37.5088306,
+    "longitude": 127.0561361,
+    "altitude": 0.0,
+    "rating_stars": 4,
+    "review_text": " 육칼, 이화수보다 난듯"
+  },
+  {
+    "id": 73,
+    "name": "",
+    "description": "★★★ 돼지불백, 김치찜 섞어서 시켜야함;",
+    "latitude": 37.5089134,
+    "longitude": 127.05635,
+    "altitude": 0.0,
+    "rating_stars": 4,
+    "review_text": " 돼지불백, 김치찜 섞어서 시켜야함;"
+  },
+  {
+    "id": 74,
+    "name": "",
+    "description": "★★★★ 갈비+냉면 점심세트 굳",
+    "latitude": 37.5091487,
+    "longitude": 127.0565558,
+    "altitude": 0.0,
+    "rating_stars": 5,
+    "review_text": " 갈비+냉면 점심세트 굳"
+  },
+  {
+    "id": 75,
+    "name": "",
+    "description": "★★★ 중식",
+    "latitude": 37.5094054,
+    "longitude": 127.0569264,
+    "altitude": 0.0,
+    "rating_stars": 4,
+    "review_text": " 중식"
+  },
+  {
+    "id": 76,
+    "name": "",
+    "description": "★★★ 밀면",
+    "latitude": 37.5080583,
+    "longitude": 127.0556161,
+    "altitude": 0.0,
+    "rating_stars": 4,
+    "review_text": " 밀면"
+  },
+  {
+    "id": 77,
+    "name": "",
+    "description": "★★★ 스테이크동, 들기름소바",
+    "latitude": 37.5080135,
+    "longitude": 127.0553957,
+    "altitude": 0.0,
+    "rating_stars": 4,
+    "review_text": " 스테이크동, 들기름소바"
+  },
+  {
+    "id": 78,
+    "name": "",
+    "description": "★★ 부대찌개",
+    "latitude": 37.5050121,
+    "longitude": 127.0593558,
+    "altitude": 0.0,
+    "rating_stars": 3,
+    "review_text": " 부대찌개"
+  },
+  {
+    "id": 79,
+    "name": "",
+    "description": "★★★  순대국",
+    "latitude": 37.5054743,
+    "longitude": 127.0589282,
+    "altitude": 0.0,
+    "rating_stars": 4,
+    "review_text": "  순대국"
+  },
+  {
+    "id": 80,
+    "name": "",
+    "description": "★ 매생이 떡국 별로",
+    "latitude": 37.5059568,
+    "longitude": 127.059934,
+    "altitude": 0.0,
+    "rating_stars": 2,
+    "review_text": " 매생이 떡국 별로"
+  },
+  {
+    "id": 81,
+    "name": "",
+    "description": "★★★★ 돈까스",
+    "latitude": 37.5060744,
+    "longitude": 127.0597031,
+    "altitude": 0.0,
+    "rating_stars": 5,
+    "review_text": " 돈까스"
+  },
+  {
+    "id": 82,
+    "name": "",
+    "description": "★ 여기밀면은 별로",
+    "latitude": 37.5061939,
+    "longitude": 127.060008,
+    "altitude": 0.0,
+    "rating_stars": 2,
+    "review_text": " 여기밀면은 별로"
+  },
+  {
+    "id": 83,
+    "name": "",
+    "description": "★★ 김천가격올라서 비쌈 ",
+    "latitude": 37.5062093,
+    "longitude": 127.0600424,
+    "altitude": 0.0,
+    "rating_stars": 3,
+    "review_text": " 김천가격올라서 비쌈 "
+  },
+  {
+    "id": 84,
+    "name": "",
+    "description": "★ 한식뷔페",
+    "latitude": 37.5059651,
+    "longitude": 127.0595143,
+    "altitude": 0.0,
+    "rating_stars": 2,
+    "review_text": " 한식뷔페"
+  },
+  {
+    "id": 85,
+    "name": "",
+    "description": "★★ 오므라이스",
+    "latitude": 37.5058543,
+    "longitude": 127.059173,
+    "altitude": 0.0,
+    "rating_stars": 3,
+    "review_text": " 오므라이스"
+  },
+  {
+    "id": 86,
+    "name": "",
+    "description": "★★ 라멘",
+    "latitude": 37.505702,
+    "longitude": 127.057668,
+    "altitude": 0.0,
+    "rating_stars": 3,
+    "review_text": " 라멘"
+  },
+  {
+    "id": 87,
+    "name": "",
+    "description": "★★ 육칼 등 ",
+    "latitude": 37.5062885,
+    "longitude": 127.0591551,
+    "altitude": 0.0,
+    "rating_stars": 3,
+    "review_text": " 육칼 등 "
+  },
+  {
+    "id": 88,
+    "name": "",
+    "description": "★★★★★ 곰탕",
+    "latitude": 37.505202,
+    "longitude": 127.0553917,
+    "altitude": 0.0,
+    "rating_stars": 5,
+    "review_text": "★ 곰탕"
+  },
+  {
+    "id": 89,
+    "name": "",
+    "description": "★★ 돈부리 혼밥용",
+    "latitude": 37.5066111,
+    "longitude": 127.0605433,
+    "altitude": 0.0,
+    "rating_stars": 3,
+    "review_text": " 돈부리 혼밥용"
+  },
+  {
+    "id": 90,
+    "name": "",
+    "description": "★★★ 떡볶이 튀김",
+    "latitude": 37.508488,
+    "longitude": 127.0663216,
+    "altitude": 0.0,
+    "rating_stars": 4,
+    "review_text": " 떡볶이 튀김"
+  },
+  {
+    "id": 91,
+    "name": "",
+    "description": "★★★ 돈까스, 카레",
+    "latitude": 37.5056728,
+    "longitude": 127.0584469,
+    "altitude": 0.0,
+    "rating_stars": 4,
+    "review_text": " 돈까스, 카레"
+  },
+  {
+    "id": 92,
+    "name": "",
+    "description": "★★ 된장전골",
+    "latitude": 37.5057218,
+    "longitude": 127.0586286,
+    "altitude": 0.0,
+    "rating_stars": 3,
+    "review_text": " 된장전골"
+  },
+  {
+    "id": 93,
+    "name": "",
+    "description": "★ 어죽 개취아니라서..",
+    "latitude": 37.5072895,
+    "longitude": 127.0612802,
+    "altitude": 0.0,
+    "rating_stars": 2,
+    "review_text": " 어죽 개취아니라서.."
+  },
+  {
+    "id": 94,
+    "name": "",
+    "description": "★★ 순대국 매움",
+    "latitude": 37.5072584,
+    "longitude": 127.0613541,
+    "altitude": 0.0,
+    "rating_stars": 3,
+    "review_text": " 순대국 매움"
+  },
+  {
+    "id": 95,
+    "name": "",
+    "description": "★★★ 한식뷔페 중 제일 난거같음",
+    "latitude": 37.5070522,
+    "longitude": 127.05606,
+    "altitude": 0.0,
+    "rating_stars": 4,
+    "review_text": " 한식뷔페 중 제일 난거같음"
+  },
+  {
+    "id": 96,
+    "name": "",
+    "description": "★★ 한식뷔페",
+    "latitude": 37.5083637,
+    "longitude": 127.057135,
+    "altitude": 0.0,
+    "rating_stars": 3,
+    "review_text": " 한식뷔페"
+  },
+  {
+    "id": 97,
+    "name": "",
+    "description": "★★★★ 수제돈까스, 파스타 무한리필",
+    "latitude": 37.5086688,
+    "longitude": 127.0583335,
+    "altitude": 0.0,
+    "rating_stars": 5,
+    "review_text": " 수제돈까스, 파스타 무한리필"
+  },
+  {
+    "id": 98,
+    "name": "",
+    "description": "★★★★ 김치찌개, 뻥튀기아이스크림 존맛",
+    "latitude": 37.5044535,
+    "longitude": 127.0541438,
+    "altitude": 0.0,
+    "rating_stars": 5,
+    "review_text": " 김치찌개, 뻥튀기아이스크림 존맛"
+  },
+  {
+    "id": 99,
+    "name": "",
+    "description": "★★★★ 규카츠, 기존 라멘집 탄 없어지고 생김",
+    "latitude": 37.5057218,
+    "longitude": 127.0586286,
+    "altitude": 0.0,
+    "rating_stars": 5,
+    "review_text": " 규카츠, 기존 라멘집 탄 없어지고 생김"
+  },
+  {
+    "id": 100,
+    "name": "",
+    "description": "★★★ 그냥 저냥하나 새로나온 새우는 괜찮은듯",
+    "latitude": 37.5114653,
+    "longitude": 127.0584671,
+    "altitude": 0.0,
+    "rating_stars": 4,
+    "review_text": " 그냥 저냥하나 새로나온 새우는 괜찮은듯"
+  },
+  {
+    "id": 101,
+    "name": "",
+    "description": "★★★ 근처 중국집 중에는 가장 난듯",
+    "latitude": 37.5073676,
+    "longitude": 127.0629677,
+    "altitude": 0.0,
+    "rating_stars": 4,
+    "review_text": " 근처 중국집 중에는 가장 난듯"
+  },
+  {
+    "id": 102,
+    "name": "",
+    "description": "★★★ 뿌빳퐁커리",
+    "latitude": 37.5091322,
+    "longitude": 127.0608511,
+    "altitude": 0.0,
+    "rating_stars": 4,
+    "review_text": " 뿌빳퐁커리"
+  },
+  {
+    "id": 103,
+    "name": "",
+    "description": "★★★ 돈까스",
+    "latitude": 37.50579,
+    "longitude": 127.0561533,
+    "altitude": 0.0,
+    "rating_stars": 4,
+    "review_text": " 돈까스"
+  },
+  {
+    "id": 104,
+    "name": "",
+    "description": "★★★ 햄버거",
+    "latitude": 37.5058398,
+    "longitude": 127.0561862,
+    "altitude": 0.0,
+    "rating_stars": 4,
+    "review_text": " 햄버거"
+  },
+  {
+    "id": 105,
+    "name": "",
+    "description": "★★★ 햄버거",
+    "latitude": 37.5047106,
+    "longitude": 127.0557345,
+    "altitude": 0.0,
+    "rating_stars": 4,
+    "review_text": " 햄버거"
+  },
+  {
+    "id": 106,
+    "name": "",
+    "description": "★★★★ 점심 맛 가성비 좋음",
+    "latitude": 37.5055658,
+    "longitude": 127.0550305,
+    "altitude": 0.0,
+    "rating_stars": 5,
+    "review_text": " 점심 맛 가성비 좋음"
+  },
+  {
+    "id": 107,
+    "name": "",
+    "description": "★★★ 부대찌개",
+    "latitude": 37.5055446,
+    "longitude": 127.0550019,
+    "altitude": 0.0,
+    "rating_stars": 4,
+    "review_text": " 부대찌개"
+  },
+  {
+    "id": 108,
+    "name": "",
+    "description": "★★★★ 딤섬맛집",
+    "latitude": 37.5085865,
+    "longitude": 127.0604196,
+    "altitude": 0.0,
+    "rating_stars": 5,
+    "review_text": " 딤섬맛집"
+  },
+  {
+    "id": 109,
+    "name": "",
+    "description": "★★★ 맛은 괜찮은데 좀 불친절했음",
+    "latitude": 37.511435,
+    "longitude": 127.0588494,
+    "altitude": 0.0,
+    "rating_stars": 4,
+    "review_text": " 맛은 괜찮은데 좀 불친절했음"
+  },
+  {
+    "id": 110,
+    "name": "",
+    "description": "★★★★ 야채 풍성, 고기도 괜찮 점심 샤브 1만원 괜춘",
+    "latitude": 37.5102384,
+    "longitude": 127.0571512,
+    "altitude": 0.0,
+    "rating_stars": 5,
+    "review_text": " 야채 풍성, 고기도 괜찮 점심 샤브 1만원 괜춘"
+  },
+  {
+    "id": 111,
+    "name": "",
+    "description": "★★★★ 런치 3만원돈 비쌈 그래서 4개임",
+    "latitude": 37.5080433,
+    "longitude": 127.0554636,
+    "altitude": 0.0,
+    "rating_stars": 5,
+    "review_text": " 런치 3만원돈 비쌈 그래서 4개임"
+  },
+  {
+    "id": 112,
+    "name": "",
+    "description": "★★★ 탄탄면",
+    "latitude": 37.50579,
+    "longitude": 127.0561533,
+    "altitude": 0.0,
+    "rating_stars": 4,
+    "review_text": " 탄탄면"
+  },
+  {
+    "id": 113,
+    "name": "",
+    "description": "★★★ 직화 괜찮은데 가격이 좀 쎄서 3개",
+    "latitude": 37.5058784,
+    "longitude": 127.0563611,
+    "altitude": 0.0,
+    "rating_stars": 4,
+    "review_text": " 직화 괜찮은데 가격이 좀 쎄서 3개"
+  },
+  {
+    "id": 114,
+    "name": "",
+    "description": "★★★★ 가성비 괜찮고 맛도 괜찮음 혼밥용",
+    "latitude": 37.5060768,
+    "longitude": 127.0561231,
+    "altitude": 0.0,
+    "rating_stars": 5,
+    "review_text": " 가성비 괜찮고 맛도 괜찮음 혼밥용"
+  },
+  {
+    "id": 115,
+    "name": "",
+    "description": "★★ 감자탕",
+    "latitude": 37.5056746,
+    "longitude": 127.0584808,
+    "altitude": 0.0,
+    "rating_stars": 3,
+    "review_text": " 감자탕"
+  },
+  {
+    "id": 116,
+    "name": "",
+    "description": "★★ 쌀국수 쌈 근데 싼게 다임",
+    "latitude": 37.5054554,
+    "longitude": 127.0579621,
+    "altitude": 0.0,
+    "rating_stars": 3,
+    "review_text": " 쌀국수 쌈 근데 싼게 다임"
+  },
+  {
+    "id": 117,
+    "name": "",
+    "description": "★★★★ 닭칼국수, 웨이팅적고 가격 좀만더 쌋으면 5개",
+    "latitude": 37.5085949,
+    "longitude": 127.0597186,
+    "altitude": 0.0,
+    "rating_stars": 5,
+    "review_text": " 닭칼국수, 웨이팅적고 가격 좀만더 쌋으면 5개"
+  },
+  {
+    "id": 118,
+    "name": "",
+    "description": "★★★ 솥밥 괜찮은데 가격이 쎔",
+    "latitude": 37.50579,
+    "longitude": 127.0561533,
+    "altitude": 0.0,
+    "rating_stars": 4,
+    "review_text": " 솥밥 괜찮은데 가격이 쎔"
+  },
+  {
+    "id": 119,
+    "name": "",
+    "description": "★★★★ 3인기준 낙곱새2인 + 대창복음밥",
+    "latitude": 37.5089322,
+    "longitude": 127.0568293,
+    "altitude": 0.0,
+    "rating_stars": 5,
+    "review_text": " 3인기준 낙곱새2인 + 대창복음밥"
+  },
+  {
+    "id": 120,
+    "name": "",
+    "description": "★★★ 중동음식 가격이쎄서 점심으로 먹기엔 좀,",
+    "latitude": 37.509386,
+    "longitude": 127.0617053,
+    "altitude": 0.0,
+    "rating_stars": 4,
+    "review_text": " 중동음식 가격이쎄서 점심으로 먹기엔 좀,"
+  },
+  {
+    "id": 121,
+    "name": "",
+    "description": "★★★ 서브웨이 에그마요 좋아하면 이것도 좋아함",
+    "latitude": 37.5116828,
+    "longitude": 127.059151,
+    "altitude": 0.0,
+    "rating_stars": 4,
+    "review_text": " 서브웨이 에그마요 좋아하면 이것도 좋아함"
+  },
+  {
+    "id": 122,
+    "name": "",
+    "description": "★★★ 김치찌개 아 역시 동쪽이 서쪽 보다 남",
+    "latitude": 37.5082734,
+    "longitude": 127.0665021,
+    "altitude": 0.0,
+    "rating_stars": 4,
+    "review_text": " 김치찌개 아 역시 동쪽이 서쪽 보다 남"
+  },
+  {
+    "id": 123,
+    "name": "",
+    "description": "★★★★ 토마토라멘, 아 이거쫌 괴식인데 맛있음 ㅋㅋ",
+    "latitude": 37.5042562,
+    "longitude": 127.0541147,
+    "altitude": 0.0,
+    "rating_stars": 5,
+    "review_text": " 토마토라멘, 아 이거쫌 괴식인데 맛있음 ㅋㅋ"
+  },
+  {
+    "id": 124,
+    "name": "",
+    "description": "★★★★ 아그라 다른곳은 별론데 여긴괜찮음 맛있는편 ",
+    "latitude": 37.5111699,
+    "longitude": 127.0593657,
+    "altitude": 0.0,
+    "rating_stars": 5,
+    "review_text": " 아그라 다른곳은 별론데 여긴괜찮음 맛있는편 "
+  },
+  {
+    "id": 125,
+    "name": "",
+    "description": "★★★★ 여기 튀김 맛있음, 오불 맛있는데 멀어서 못감, 그냥 저녁에 술",
+    "latitude": 37.5079378,
+    "longitude": 127.0668178,
+    "altitude": 0.0,
+    "rating_stars": 5,
+    "review_text": " 여기 튀김 맛있음, 오불 맛있는데 멀어서 못감, 그냥 저녁에 술"
+  },
+  {
+    "id": 126,
+    "name": "",
+    "description": "★★★ 그냥 그런 일식까스",
+    "latitude": 37.5110995,
+    "longitude": 127.0589267,
+    "altitude": 0.0,
+    "rating_stars": 4,
+    "review_text": " 그냥 그런 일식까스"
+  },
+  {
+    "id": 127,
+    "name": "",
+    "description": "★★★★ 비빔밥 이브랜드 자체가 다이어트식이라고 가장한 손님기만 밥집",
+    "latitude": 37.5048437,
+    "longitude": 127.0581618,
+    "altitude": 0.0,
+    "rating_stars": 5,
+    "review_text": " 비빔밥 이브랜드 자체가 다이어트식이라고 가장한 손님기만 밥집"
+  },
+  {
+    "id": 128,
+    "name": "",
+    "description": "★★★ 점심특선 1만원 초밥",
+    "latitude": 37.5057416,
+    "longitude": 127.0596588,
+    "altitude": 0.0,
+    "rating_stars": 4,
+    "review_text": " 점심특선 1만원 초밥"
+  },
+  {
+    "id": 129,
+    "name": "",
+    "description": "★★★ 생선구이 맛있음, 개인적으로 생선 발라먹기 귀찮아서 별3개 아니면 4개였음",
+    "latitude": 37.505473,
+    "longitude": 127.0589219,
+    "altitude": 0.0,
+    "rating_stars": 4,
+    "review_text": " 생선구이 맛있음, 개인적으로 생선 발라먹기 귀찮아서 별3개 아니면 4개였음"
+  },
+  {
+    "id": 130,
+    "name": "",
+    "description": "★★★★ 피자 괜찮음, MZ라면 갈만함, 아재 4인팟으로는 불가능한 매장임, 혼성 4인팟 가능",
+    "latitude": 37.5049486,
+    "longitude": 127.0584977,
+    "altitude": 0.0,
+    "rating_stars": 5,
+    "review_text": " 피자 괜찮음, MZ라면 갈만함, 아재 4인팟으로는 불가능한 매장임, 혼성 4인팟 가능"
+  },
+  {
+    "id": 131,
+    "name": "",
+    "description": "★★★★ 샤브샤브 맛있음",
+    "latitude": 37.5081638,
+    "longitude": 127.0574693,
+    "altitude": 0.0,
+    "rating_stars": 5,
+    "review_text": " 샤브샤브 맛있음"
+  },
+  {
+    "id": 132,
+    "name": "",
+    "description": "★★ 점심밀면 먹었는데 별로임",
+    "latitude": 37.508461,
+    "longitude": 127.0569132,
+    "altitude": 0.0,
+    "rating_stars": 3,
+    "review_text": " 점심밀면 먹었는데 별로임"
+  },
+  {
+    "id": 133,
+    "name": "",
+    "description": "★★★★ 여기 꼬막비빔밥 맛있었음",
+    "latitude": 37.5090167,
+    "longitude": 127.0582363,
+    "altitude": 0.0,
+    "rating_stars": 5,
+    "review_text": " 여기 꼬막비빔밥 맛있었음"
+  },
+  {
+    "id": 134,
+    "name": "",
+    "description": "★★★★ 가격이 1.0인가 그랫고 생각보다 쌋고 점심 곱창전골, 낙곱새, 치즈뚝배기양밥, 치즈뚝배기양밥때매 4점줌 ",
+    "latitude": 37.5092352,
+    "longitude": 127.0569306,
+    "altitude": 0.0,
+    "rating_stars": 5,
+    "review_text": " 가격이 1.0인가 그랫고 생각보다 쌋고 점심 곱창전골, 낙곱새, 치즈뚝배기양밥, 치즈뚝배기양밥때매 4점줌 "
+  },
+  {
+    "id": 135,
+    "name": "",
+    "description": "돈까스, 카레덮밥 맛있음",
+    "latitude": 37.5053908,
+    "longitude": 127.0587773,
+    "altitude": 0.0,
+    "rating_stars": 0,
+    "review_text": ""
+  },
+  {
+    "id": 136,
+    "name": "",
+    "description": "★★★ 닭곰탕",
+    "latitude": 37.5086154,
+    "longitude": 127.0597808,
+    "altitude": 0.0,
+    "rating_stars": 4,
+    "review_text": " 닭곰탕"
+  },
+  {
+    "id": 137,
+    "name": "",
+    "description": "★★★★ 내림손 삼계탕보다 괜찮고 인삼주도 줌",
+    "latitude": 37.5091155,
+    "longitude": 127.0562704,
+    "altitude": 0.0,
+    "rating_stars": 5,
+    "review_text": " 내림손 삼계탕보다 괜찮고 인삼주도 줌"
+  },
+  {
+    "id": 138,
+    "name": "",
+    "description": "★★★★ 롤온돈까스 맛있고 육개장 맛있음",
+    "latitude": 37.5049807,
+    "longitude": 127.060053,
+    "altitude": 0.0,
+    "rating_stars": 5,
+    "review_text": " 롤온돈까스 맛있고 육개장 맛있음"
+  },
+  {
+    "id": 139,
+    "name": "",
+    "description": "★★★ 알탕등 룸형식 식당 으른들이 좋아할듯",
+    "latitude": 37.5072713,
+    "longitude": 127.061241,
+    "altitude": 0.0,
+    "rating_stars": 4,
+    "review_text": " 알탕등 룸형식 식당 으른들이 좋아할듯"
+  },
+  {
+    "id": 140,
+    "name": "",
+    "description": "★★★★ 스프 무한리필 카레무한리필인 카츠집이라 4개임",
+    "latitude": 37.5084075,
+    "longitude": 127.0576214,
+    "altitude": 0.0,
+    "rating_stars": 5,
+    "review_text": " 스프 무한리필 카레무한리필인 카츠집이라 4개임"
+  },
+  {
+    "id": 141,
+    "name": "",
+    "description": "",
+    "latitude": 37.5078624,
+    "longitude": 127.0586821,
+    "altitude": 0.0,
+    "rating_stars": 0,
+    "review_text": ""
+  },
+  {
+    "id": 142,
+    "name": "",
+    "description": "★★★ 닭볶음탕이 메인, 점심 돈까스등 저녁이 좋은듯함",
+    "latitude": 37.5088094,
+    "longitude": 127.0585105,
+    "altitude": 0.0,
+    "rating_stars": 4,
+    "review_text": " 닭볶음탕이 메인, 점심 돈까스등 저녁이 좋은듯함"
+  },
+  {
+    "id": 143,
+    "name": "",
+    "description": "★★★★★ 분위기 깡패 좀 먼거 빼면 다좋음 점심도 맛있음 가격은 좀 있음",
+    "latitude": 37.5091109,
+    "longitude": 127.0660745,
+    "altitude": 0.0,
+    "rating_stars": 5,
+    "review_text": "★ 분위기 깡패 좀 먼거 빼면 다좋음 점심도 맛있음 가격은 좀 있음"
+  },
+  {
+    "id": 144,
+    "name": "",
+    "description": "★★★★★ 점심회식으로 좋은 곳, 스페인요리점",
+    "latitude": 37.5076258,
+    "longitude": 127.0555641,
+    "altitude": 0.0,
+    "rating_stars": 5,
+    "review_text": "★ 점심회식으로 좋은 곳, 스페인요리점"
+  },
+  {
+    "id": 145,
+    "name": "",
+    "description": "",
+    "latitude": 37.5104833,
+    "longitude": 127.0576142,
+    "altitude": 0.0,
+    "rating_stars": 0,
+    "review_text": ""
+  },
+  {
+    "id": 146,
+    "name": "",
+    "description": "★★★★ bar 인데 점심 파스타 카레 팜",
+    "latitude": 37.5052337,
+    "longitude": 127.0592752,
+    "altitude": 0.0,
+    "rating_stars": 5,
+    "review_text": " bar 인데 점심 파스타 카레 팜"
+  },
+  {
+    "id": 147,
+    "name": "",
+    "description": "★★★★ 석갈비 맛있는데 비싸서 4개",
+    "latitude": 37.5095948,
+    "longitude": 127.0594292,
+    "altitude": 0.0,
+    "rating_stars": 5,
+    "review_text": " 석갈비 맛있는데 비싸서 4개"
+  }
+]
