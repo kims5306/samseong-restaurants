@@ -301,7 +301,7 @@
         // JSON 파일 로드
         async function loadRestaurants() {
             try {
-                const response = await fetch('삼성역 근처 맛집 및 정보 지도_export.json');
+                const response = await fetch('_export.json');
                 if (!response.ok) throw new Error('JSON 파일을 찾을 수 없습니다.');
                 restaurants = await response.json();
                 
@@ -340,9 +340,10 @@
             }
 
             let html = '';
-            data.forEach((rest, index) => {
-                const stars = '★'.repeat(rest.rating_stars);
-                const mapLink = `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(rest.name + ', 서울')}`;
+                data.forEach((rest, index) => {
+                    const stars = '★'.repeat(rest.rating_stars);
+                    // 좌표 기반 구글 지도 링크 생성
+                    const mapLink = `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(`${rest.latitude}, ${rest.longitude}`)}&view=map`;
                 
                 html += `
                     <div class="restaurant-item" onclick="showModal(${index})">
@@ -394,7 +395,8 @@
             
             const rest = restaurants[index];
             const stars = '★'.repeat(rest.rating_stars);
-            const mapLink = `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent((rest.name || '맛집') + ', 서울')}`;
+            // 좌표 기반 구글 지도 링크 생성
+            const mapLink = `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(`${rest.latitude}, ${rest.longitude}`)}&view=map`;
             
             document.getElementById('modalTitle').textContent = rest.name || '맛집';
             document.getElementById('modalContent').innerHTML = `
