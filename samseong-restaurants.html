@@ -301,7 +301,7 @@
         // JSON 파일 로드
         async function loadRestaurants() {
             try {
-                const response = await fetch('삼성역_근처_맛집_및_정보_지도_export.json');
+                const response = await fetch('삼성역 근처 맛집 및 정보 지도_export.json');
                 if (!response.ok) throw new Error('JSON 파일을 찾을 수 없습니다.');
                 restaurants = await response.json();
                 
