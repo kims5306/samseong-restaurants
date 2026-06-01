@@ -295,15 +295,33 @@
     </div>
 
     <script>
-        // 맛집 데이터 (JSON 파일에서 가져온 데이터)
+        // 맛집 데이터 (JSON 파일에서 동적으로 로드)
         let restaurants = [];
 
         // JSON 파일 로드
         async function loadRestaurants() {
             try {
-                const response = await fetch('삼성역 근처 맛집 및 정보 지도_export.json');
+                const response = await fetch('samseong-restaurants.json');
                 if (!response.ok) throw new Error('JSON 파일을 찾을 수 없습니다.');
                 restaurants = await response.json();
+                
+                // 데이터가 비어있으면 기본 데이터 사용
+                if (restaurants.length === 0) {
+                    console.warn('JSON 데이터가 비어있습니다. 기본 데이터를 사용합니다.');
+                    restaurants = [
+                        {
+                            id: 1,
+                            name: '부타이 1막',
+                            description: '★★★★ 일식 돈카츠, 마제소바',
+                            latitude: 37.5061858,
+                            longitude: 127.0600424,
+                            altitude: 0,
+                            rating_stars: 5,
+                            review_text: ''
+                        }
+                    ];
+                }
+                
                 displayRestaurants(restaurants);
             } catch (error) {
                 console.error('데이터 로드 오류:', error);
@@ -328,7 +346,7 @@
                 
                 html += `
                     <div class="restaurant-item" onclick="showModal(${index})">
-                        <div class="restaurant-name">${rest.name}</div>
+                        <div class="restaurant-name">${rest.name || '이름 없음'}</div>
                         <div class="restaurant-rating">${stars} ${rest.rating_stars > 0 ? rest.rating_stars + '점' : ''}</div>
                         <div class="restaurant-desc">${rest.description || '정보 없음'}</div>
                     </div>
@@ -376,9 +394,9 @@
             
             const rest = restaurants[index];
             const stars = '★'.repeat(rest.rating_stars);
-            const mapLink = `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(rest.name + ', 서울')}`;
+            const mapLink = `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent((rest.name || '맛집') + ', 서울')}`;
             
-            document.getElementById('modalTitle').textContent = rest.name;
+            document.getElementById('modalTitle').textContent = rest.name || '맛집';
             document.getElementById('modalContent').innerHTML = `
                 <h3>📝 식당 정보</h3>
                 <p><strong>별점:</strong> ${stars} (${rest.rating_stars > 0 ? rest.rating_stars + '점' : '-'})</p>
